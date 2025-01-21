@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word and Character Counter</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>Word and Character Counter</h1>
+  <textarea id="textInput" placeholder="Enter text here..." rows="8" cols="30"></textarea>
+  
+  <div class="counter">
+    <div class="counter-box">
+      <h2>Total Words: <span id="totalWords">0</span></h2>
+      <div id="wordFrequency"></div>
+    </div>
+    <div class="counter-box">
+      <h2>Total Characters: <span id="totalChars">0</span></h2>
+      <div id="charFrequency"></div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
